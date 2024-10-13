@@ -33,10 +33,10 @@ Before running the project, you need to have the following installed on your mac
    cp .env.example .env
 
 4. Add your API credentials in the .env file:
-   SPOTIFY_CLIENT_ID=your_spotify_client_id
-   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-   SPOTIFY_REDIRECT_URI=http://localhost:5000/callback
-   YOUTUBE_API_KEY=your_youtube_api_key
+   - SPOTIFY_CLIENT_ID=your_spotify_client_id
+   - SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+   - SPOTIFY_REDIRECT_URI=http://localhost:5000/callback
+   - YOUTUBE_API_KEY=your_youtube_api_key
 
 5. Make sure FFmpeg and yt-dlp are installed and accessible from your command line:
 
