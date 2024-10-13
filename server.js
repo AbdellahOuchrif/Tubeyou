@@ -25,7 +25,7 @@ const youtube = google.youtube({
 
 let youtubeUrls = [];
 let accessToken = null;
-let playlistName = "ENIM SI SIHT"; // Your playlist name
+let playlistName = process.env.PLAYLIST_NAME; // Your playlist name
 
 // Path to the JSON file where we'll store downloaded track IDs
 const downloadedTracksFilePath = path.join(__dirname, 'downloadedTracks.json');
